@@ -3,6 +3,8 @@
 
 <img src="./img/readme/Tela1.png"/>
 
+<br>
+
 <img src="./img/readme/Tela.png"/>
 
 - Praticando JavaScript com imports e exports
@@ -13,7 +15,7 @@
 
 - owl carousel: carrossel de imagens
 
-  
+<br>  
 
 - Busca filmes por ID
 
@@ -23,7 +25,7 @@
 
 - Exibir descrição do filme ao clicar em mais informações
 
-  
+  <br>
 
   Trailer Padrão Harry Potter
 
