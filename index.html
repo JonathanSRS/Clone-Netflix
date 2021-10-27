@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
+    <title>Clone NETFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h6>NETFLIX</h6>
+            <a href="">Inicio</a>
+            <a href="">Series</a>
+            <a href="">Filmes</a>
+            <a href="">Bombando</a>
+            <a href="">Minha lista</a>
+        </div>
+        <div class="control">
+            <div class="search">
+                <input id="input" type="text" placeholder="Títulos, gente e gêneros">
+                <i class="fas fa-search"></i>
+            </div>
+            <i class="fas fa-bell"></i>
+            <div class="perfil">
+                <div class="foto">
+                    <aside>
+                        <ul>
+                            <li><a href="">Perfil</a></li>
+                            <li><a href="">Gerenciar Perfis</a></li>
+                            <li><a href="">Conta</a></li>
+                            <li><a href="">Centro de ajuda</a></li>
+                            <li><a href="">Sair da Netflix</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <i class="fas fa-sort-down arrow"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <iframe
+        width=100% 
+        height="315" 
+        src="https://www.youtube-nocookie.com/embed/vX4uUtJfOPA?&rel=0&controls=0&showinfo=0
+        &autoplay=1&mute=1&loop=1&autopause=0
+        &amp;&fs=0&modestbranding=1" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write;  gyroscope; picture-in-picture; loop" 
+        allownetworking="internal"></iframe>
+        <div class="capa">
+            <div class="descricao">
+            </div>
+            <button id="assistir"><i class="fa fa-play"></i> Assistir</button>
+            <button id="info"><i class="fas fa-info-circle"></i> Mais Informações</button>
+        </div>
+    </main>
+    <div class="carrossel">
+        
+    </div>
+    <footer>
+        <div class="redes-sociais">
+            <a href="https://github.com/JonathanSRS" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/jonathan-da-silva-4b61b1215/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="jonathansilvadevjpldv@gmail.com"><i class="fas fa-envelope"></i></a>
+            <i><a href="https://www.themoviedb.org/?language=pt-BR" target="_blank"></a></i>
+        </div>
+        <div class="texto">
+            <ul>
+                <li><a href="https://www.themoviedb.org/?language=pt-BR" target="_blank">TMDB Site</a></li>
+                <li><a href="https://developers.themoviedb.org/3/authentication/how-do-i-generate-a-session-id" target="_blank">TMDB API</a></li>
+            </ul>
+            <span>@Copy Direitos Todos os dados foram coletas utilizando API TMDB</span>
+        </div>
+    </footer>
+    <script type="module" src="js/componentes/carrossel/Carrossel.js"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js" defer></script>
+    <script src="./js/owl/setup.js" defer></script>
+    <script src="https://kit.fontawesome.com/ba5fe6b804.js" crossorigin="anonymous"></script>
+</body>
+</html>
