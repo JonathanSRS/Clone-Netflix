@@ -8,7 +8,7 @@
 <img src="./img/readme/Tela.png"/>
 
 <br>
-<center><a href="https://jonathansrs.github.io/Clone-Netflix/">Clique em mim</a></center>
+<a href="https://jonathansrs.github.io/Clone-Netflix/">Clique em mim</a>
 <br>
 - Praticando JavaScript com imports e exports
 
