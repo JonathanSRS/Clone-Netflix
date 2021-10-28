@@ -7,6 +7,9 @@
 
 <img src="./img/readme/Tela.png"/>
 
+<br>
+<a href="https://jonathansrs.github.io/Clone-Netflix/">Clique em mim</a>
+<br>
 - Praticando JavaScript com imports e exports
 
 - Api TMDB: Banco de dados
