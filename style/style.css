@@ -52,6 +52,14 @@ header.sticky{
     text-decoration: none;
 }
 
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
 .nav a{
     color: white;
     margin-right: 5px;
@@ -341,8 +349,12 @@ footer .texto ul li{
         display: none;
         height: 50px;
         width: 17%;
-        left: 40%;
+        left: 32%;
         top: 80%;
+    }
+
+    .nav ul{
+        display: block;
     }
 
     .notificacao{
